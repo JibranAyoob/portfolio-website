@@ -1,0 +1,606 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Jibran Ayoob - Creative Graphic Designer Portfolio">
+    <title>Jibran Ayoob | Senior Graphic Designer</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Playfair+Display:ital,wght@0,600;1,600&display=swap" rel="stylesheet">
+</head>
+<body class="dark-theme">
+
+    <header id="header">
+        <nav class="navbar container">
+            <a href="#home" class="logo">Jibran.<span>Ayoob</span></a>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="container hero-content">
+            <div class="hero-text animate-up">
+                <p class="greeting">Hello, I'm</p>
+                <h1>Jibran Ayoob</h1>
+                <h2><span class="typed-text"></span><span class="cursor">&nbsp;</span></h2>
+                <p class="hero-description">Specializing in modern, minimalist, and editorial aesthetics for corporate and university-level audiences. Elevating brands through premium visual storytelling.</p>
+                <div class="hero-cta">
+                    <a href="#projects" class="btn btn-primary">View My Work</a>
+                    <a href="#contact" class="btn btn-secondary">Get In Touch</a>
+                </div>
+            </div>
+            <div class="hero-image animate-up">
+                <div class="glass-frame">
+                    <img src="assets/Graphic Design/Profile.png" alt="Jibran Ayoob" loading="lazy">
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <a href="#about">
+                <span class="mouse">
+                    <span class="wheel"></span>
+                </span>
+            </a>
+        </div>
+    </section>
+
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="section-title animate-up">
+                <h2>About <span>Me</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="about-content glass-card animate-up">
+                <p>I am a creative and experienced designer with a passion for building striking visual identities. Fluent in both English and Roman Urdu, I excel at interpreting complex project instructions and delivering high-quality, pixel-perfect graphics.</p>
+                <p>My work prioritizes clean layouts, strategic typography, and a balance of modern and editorial styles, ensuring that every piece—from large-scale event banners to engaging social media carousels—communicates authority and trust.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="skills section">
+        <div class="container">
+            <div class="section-title animate-up">
+                <h2>My <span>Skills</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="skills-grid">
+                <div class="skill-card glass-card animate-up">
+                    <h3>Brand Identity</h3>
+                    <p>Minimalist, memorable, and modern logo design.</p>
+                </div>
+                <div class="skill-card glass-card animate-up" style="transition-delay: 0.1s;">
+                    <h3>Print & Layout Design</h3>
+                    <p>High-resolution standees, flex banners, and team hierarchy posters.</p>
+                </div>
+                <div class="skill-card glass-card animate-up" style="transition-delay: 0.2s;">
+                    <h3>Social Media Graphics</h3>
+                    <p>Engaging LinkedIn carousels and pixel-perfect portrait visuals.</p>
+                </div>
+                <div class="skill-card glass-card animate-up" style="transition-delay: 0.3s;">
+                    <h3>Typography & Color</h3>
+                    <p>Mastery of editorial aesthetics and premium color palettes.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="projects section">
+        <div class="container">
+            <div class="section-title animate-up">
+                <h2>Featured <span>Projects</span></h2>
+                <div class="underline"></div>
+            </div>
+            
+            <div class="filter-controls animate-up">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="graphic-designs">Graphic Designs</button>
+                <button class="filter-btn" data-filter="logo-designs">Logo Designs</button>
+            </div>
+
+            <div class="project-gallery">
+                
+                <!-- GRAPHIC DESIGNS -->
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/1.png" alt="Professional Design" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Professional Campaign</h3>
+                        <p>Creative visual design for brand promotion.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/2.png" alt="Design Project" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Brand Showcase</h3>
+                        <p>Modern design with editorial aesthetics.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/3.png" alt="Creative Design" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Creative Showcase</h3>
+                        <p>Innovative design solutions for brands.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Brand nuts factory.jpg" alt="Brand Design" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Brand Nuts Factory</h3>
+                        <p>Professional branding for food industry.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Burger.png" alt="Food Design" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Burger Campaign</h3>
+                        <p>Food branding and promotional design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Etmaad Tools.png" alt="Tools Design" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Etmaad Tools</h3>
+                        <p>Product design and brand identity.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/ffb cover.png" alt="Cover Design" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Facebook Cover</h3>
+                        <p>Social media design and branding.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Hamza Fb Cover.jpg" alt="Social Media" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Social Campaign</h3>
+                        <p>Facebook cover and social media design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/HAMZA fb Profile.jpg" alt="Profile Design" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Profile Design</h3>
+                        <p>Personal branding and profile design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Hamza Mobile (1).png" alt="Mobile Design" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Mobile Interface</h3>
+                        <p>Mobile app and interface design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Hamza Shop.jpg" alt="Shop Design" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Shop Design</h3>
+                        <p>E-commerce and retail design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Invitations.png" alt="Invitations" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Invitation Design</h3>
+                        <p>Event invitations and stationery design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Invite 2.png" alt="Invite Design" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Event Invite</h3>
+                        <p>Creative event invitation design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Invite 3.png" alt="Party Invite" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Party Invitation</h3>
+                        <p>Creative party and event design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Invite.png" alt="Digital Invite" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Digital Invite</h3>
+                        <p>Modern digital invitation design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Invites.png" alt="Invites Collection" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Invites Collection</h3>
+                        <p>Collection of invitation designs.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/LIPAHS.jpg" alt="LIPAHS" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>LIPAHS Branding</h3>
+                        <p>Corporate branding and design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Mines .png" alt="Mines Design" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Mining Project</h3>
+                        <p>Industrial branding and design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/NETWORK.png" alt="Network" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Network Design</h3>
+                        <p>Technology and network branding.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Picture1 .png" alt="Picture Design" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Picture Project 1</h3>
+                        <p>Visual design and graphics.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Picture 2.png" alt="Picture 2" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Picture Project 2</h3>
+                        <p>Creative visual design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Poster.png" alt="Poster" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Poster Design</h3>
+                        <p>Event and promotional posters.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Posters.png" alt="Multiple Posters" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Poster Collection</h3>
+                        <p>Collection of poster designs.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Post.png" alt="Social Post" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Social Post</h3>
+                        <p>Social media post design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="graphic-designs">
+                    <div class="project-img">
+                        <img src="assets/Graphic Design/Profile.png" alt="Profile" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Graphic Design</span>
+                        <h3>Profile Graphics</h3>
+                        <p>Professional profile design.</p>
+                    </div>
+                </div>
+
+                <!-- LOGO DESIGNS -->
+                <div class="project-card animate-up" data-category="logo-designs">
+                    <div class="project-img">
+                        <img src="assets/logos/AyubiYouth.png" alt="Ayubi Youth Logo" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Logo Design</span>
+                        <h3>Ayubi Youth</h3>
+                        <p>Modern youth organization logo.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="logo-designs">
+                    <div class="project-img">
+                        <img src="assets/logos/hamzazone.png" alt="Hamza Zone Logo" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Logo Design</span>
+                        <h3>Hamza Zone</h3>
+                        <p>Brand logo and identity design.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="logo-designs">
+                    <div class="project-img">
+                        <img src="assets/logos/ETMAAD.jpeg" alt="Etmaad Logo" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Logo Design</span>
+                        <h3>Etmaad</h3>
+                        <p>Professional corporate logo.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="logo-designs">
+                    <div class="project-img">
+                        <img src="assets/logos/AY1.png" alt="AY Logo 1" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Logo Design</span>
+                        <h3>AY Brand 1</h3>
+                        <p>Minimalist brand identity.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="logo-designs">
+                    <div class="project-img">
+                        <img src="assets/logos/AY2.png" alt="AY Logo 2" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Logo Design</span>
+                        <h3>AY Brand 2</h3>
+                        <p>Modern logo design variation.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="logo-designs">
+                    <div class="project-img">
+                        <img src="assets/logos/AY3.png" alt="AY Logo 3" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Logo Design</span>
+                        <h3>AY Brand 3</h3>
+                        <p>Creative logo variation.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="logo-designs">
+                    <div class="project-img">
+                        <img src="assets/logos/3.png" alt="Logo 3" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Logo Design</span>
+                        <h3>Logo Design 3</h3>
+                        <p>Professional brand logo.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="logo-designs">
+                    <div class="project-img">
+                        <img src="assets/logos/JA Logo.jpg" alt="JA Logo" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Logo Design</span>
+                        <h3>JA Brand</h3>
+                        <p>Personal branding logo.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="logo-designs">
+                    <div class="project-img">
+                        <img src="assets/logos/Js Tech Blogging.png" alt="JS Tech Logo" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Logo Design</span>
+                        <h3>JS Tech Blogging</h3>
+                        <p>Tech blog branding logo.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="logo-designs">
+                    <div class="project-img">
+                        <img src="assets/logos/NF.png" alt="NF Logo" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Logo Design</span>
+                        <h3>NF Brand</h3>
+                        <p>Corporate brand identity.</p>
+                    </div>
+                </div>
+
+                <div class="project-card animate-up" data-category="logo-designs">
+                    <div class="project-img">
+                        <img src="assets/logos/Ukasha.png" alt="Ukasha Logo" loading="lazy">
+                        <div class="hover-overlay"><span class="zoom-icon">🔍</span></div>
+                    </div>
+                    <div class="project-info">
+                        <span class="category">Logo Design</span>
+                        <h3>Ukasha</h3>
+                        <p>Brand logo design.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <div id="lightbox" class="lightbox">
+        <span class="lightbox-close">&times;</span>
+        <img class="lightbox-content" id="lightbox-img" alt="Fullscreen preview">
+    </div>
+
+    <section id="contact" class="contact section">
+        <div class="container">
+            <div class="section-title animate-up">
+                <h2>Get In <span>Touch</span></h2>
+                <div class="underline"></div>
+            </div>
+            <div class="contact-wrapper glass-card animate-up">
+                <form id="contact-form" class="contact-form" novalidate>
+                    <div class="input-group">
+                        <label for="name">Name</label>
+                        <input type="text" id="name" name="name" required placeholder="Your Name">
+                        <span class="error-msg">Please enter your name.</span>
+                    </div>
+                    <div class="input-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" required placeholder="your@email.com">
+                        <span class="error-msg">Please enter a valid email.</span>
+                    </div>
+                    <div class="input-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Your message..."></textarea>
+                        <span class="error-msg">Please enter a message.</span>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+                
+                <div class="social-links">
+                    <h3>Connect with me</h3>
+                    <div class="icons">
+                        <a href="https://www.linkedin.com/in/jibran-ayoob-4b5798288/" aria-label="LinkedIn">IN</a>
+                        <a href="https://www.facebook.com/jibran.khatti.752" aria-label="Facebook">FB</a>
+                        <a href="https://www.instagram.com/khalil.1676/" aria-label="Instagram">IG</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="year"></span> Jibran Ayoob. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#home" id="back-to-top" aria-label="Back to top">↑</a>
+
+    <script src="script.js"></script>
+</body>
+</html>
